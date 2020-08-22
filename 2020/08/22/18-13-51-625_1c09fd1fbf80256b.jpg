@@ -1,0 +1,1243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:wb="//open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Solidot: 奇客的资讯，重要的东西</title>
+<meta name="baidu-site-verification" content="DFUjePAJQQ" />
+<meta property="wb:webmaster" content="14038afe88cfc78f" />
+<meta name="keywords" content="IT,开源,开发者,软件,硬件,书籍,互联网,科学,社会,奇客,社区"/>
+<meta property="qc:admins" content="4316552177637414746727" />
+<meta name="description" content="Solidot是至顶网下的科技资讯网站，主要面对开源自由软件和关心科技资讯读者群，包括众多中国开源软件的开发者，爱好者和布道者。口号是“奇客的资讯，重要的东西”。"/>
+<base href="//www.solidot.org" />
+<link href="https://icon.solidot.org/css/default/common.css" rel="stylesheet" type="text/css" /><link href="https://icon.solidot.org/css/default/base.css" rel="stylesheet" type="text/css" /><link href="https://icon.solidot.org/css/green/index.css" rel="stylesheet" type="text/css" />
+<script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3991498076" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="https://icon.solidot.org/js/jquery-1.7.2.min.js"></script>
+<link rel="alternate" title="Solidot RSS" href="//www.solidot.org/index.rss" type="application/rss+xml" />
+<link rel="alternate" title="BNet职业商学院" href="//www.bnet.com.cn/bnetzc.xml" type="application/rss+xml" />
+<link rel="alternate" title="CNET(科技资讯网)原创" href="://www.cnetnews.com.cn/cnetnews.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网网络频道 原创" href="//net.zhiding.cn/network_security_zone/netrss.xml" type="application/rss+xml"/>
+<link rel="alternate" title="至顶网服务器频道 原创" href="//server.zhiding.cn/server/serverrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网软件频道 原创" href="//soft.zhiding.cn/software_zone/softrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网存储频道 原创" href="//stor-age.zhiding.cn/stor-age/storrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网 CIO 频道 原创" href="//cio.zhiding.cn/cio/ciorss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网安全频道 原创" href="//security.zhiding.cn/security_zone/securityrss.xml" type="application/rss+xml" />
+</head>
+<body class="bg_col">
+<div id="headads">
+	<div id="ads_l">
+		<img src="https://icon.solidot.org/images/default/ads.gif" /><br />
+		<img width="870" height="90" alt="adv" src="https://am.zhiding.cn/www/images/201902/SolidotPodcast_87090_0215.jpg" />	</div>
+	<div id="ads_r">
+		<img src="https://icon.solidot.org/images/default/ads.gif" /><br />
+		<img width="300" height="90" border="0" alt="" src="https://am.zhiding.cn/www/images/201902/default_ads_saibogushi90_0225.jpg" />	</div>
+	<div class="clear"></div>
+</div>
+<div id="main">
+<div class="logo_sosobox">
+    <div class="logo_bg">
+        <a href="/" class="logo_bg" title="Solidot 奇客的资讯，重要的东西"></a>
+    </div>
+    <div class="soso_inp">
+        <div class="soand_btn">
+            <form action="//www.google.com.hk/search" method="get" target="_blank">
+                <div class="soso_div" positionleft="7">
+                    <strong> 
+                        <input type="text" autocomplete="off" name="query" class="textinp">
+                    </strong>
+                </div>
+                <div class="btn_ss">
+                    <input type="hidden" value="solidot.org" name="as_sitesearch"/>
+                    <input type="submit" name="" value="" style="cursor:pointer"/>
+                </div>
+            </form>
+        </div>
+        <div class="login_rr">
+                        <div class="login_r"><a href="/login">登录</a> <a href="/register">注册</a></div>
+                        <ul id="ul_nav">
+                                <li class="s_icon">
+                    <span>文章</span>
+                    <div class="translat_down hiden" style="right:2px;">
+                        <a href="/submit">提交文章</a>
+                        <a href="/?issue=20200822">往日文章</a>
+                        <a href="/polllist">往日投票</a>
+                                            </div>
+                </li>
+                                <li class="s_icon">
+                    <span>皮肤</span>
+                    <div class="translat_down hiden">
+                        <a href="/?theme=blue">蓝色</a>
+                        <a href="/?theme=yellow">橙色</a>
+                        <a href="/?theme=green">绿色</a>
+                        <a href="/?theme=clightgreen">浅绿色</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="nav-secondary-wrap">
+    <nav class="nav-secondary" role="secondary-navigation">
+        <ul>
+            <li class="nav-label">分类: </li>
+            <li><a href="/news">信息流</a></li>
+                                    <li class="left_on"><a href="//www.solidot.org/">首页</a></li>
+                                                <li><a href="//startup.solidot.org/">创业问答</a></li>
+                                                <li><a href="//linux.solidot.org/">Linux</a></li>
+                                                <li><a href="//science.solidot.org/">科学</a></li>
+                                                <li><a href="//technology.solidot.org/">科技</a></li>
+                                                <li><a href="//mobile.solidot.org/">移动</a></li>
+                                                <li><a href="//apple.solidot.org/">苹果</a></li>
+                                                <li><a href="//hardware.solidot.org/">硬件</a></li>
+                                                <li><a href="//software.solidot.org/">软件</a></li>
+                                                <li><a href="//security.solidot.org/">安全</a></li>
+                                                <li><a href="//games.solidot.org/">游戏</a></li>
+                                                <li><a href="//books.solidot.org/">书籍</a></li>
+                                                <li><a href="//ask.solidot.org/">ask</a></li>
+                                                <li><a href="//idle.solidot.org/">idle</a></li>
+                                                <li><a href="//cloud.solidot.org/">云计算</a></li>
+                        	                  
+        </ul>
+    </nav>
+    <div class="combined_log" style="width:240px; padding-right:0;">
+        <h2 style="color:#fff; margin-top:-0.1em;">关注我们：</h2>
+        <ul class="clearfix">
+        	<li><a class="rss" title="rss" href="/index.rss"></a></li>
+            <li><wb:follow-button uid="1686235170" type="gray_1" width=67 height=24></wb:follow-button></li>
+            <li><a class="xima" target="_blank" rel="nofollow" title="喜马拉雅" href="http://www.ximalaya.com/keji/16007374/"></a></li>
+            <li><a class="wechat" title="扫码关注solidot" href="javascript:void(0);"></a></li>
+        </ul>
+     </div>
+</div>
+<div class="clear"></div>
+
+<div id="right">
+    <div class="wechat_code hiden"></div>
+    <div class="qu_btns">
+    	<a href="/submit">提交文章</a>
+        <!--a href="/bbsubmit">发布帖子</a>-->
+    </div>
+        <div class="adv">
+        <a target="_blank" href="http://www.ppthub.com.cn/"><img width="300" height="250" border="0" alt="" src="https://am.zhiding.cn/www/images/201902/default_ads_PPTHub250_0222.jpg" /></a>    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>Solidot 公告</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <b>文章提交注意事项：</b>
+                <br>
+                请在发布文章时用HTML代码加上至少一条新闻来源的链接；原创性消息，可加入相关信息（如涉及公司的网址）的链接。有任何问题，<b>邮件至：he.fang#zhiding.cn<br>
+                    ken：feigaobox@gmail.com<br>
+                </b>
+                <span class="pad_10px">注意：收到邮件乱码的用户请修改客户端的默认字体编码，从"简体中文（GB2312）"修改为"Unicode（UTF-8）"。</span>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+        <div class="block_r">
+        <div class="rig_tittle">
+            <h2>投 票</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <form method="post" action="/poll?op=dopoll&qid=239" name="form1" id="form1" class="tp">
+                    <fieldset>
+                        <b>经常使用的搜索引擎是</b><br/>
+                                                                        <input name="aid[]" type="radio" value="1" /> <b>DuckDuckGo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="2" /> <b>ChinaSo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="3" /> <b>Google</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="4" /> <b>WeChat</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="5" /> <b>Yandex</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="6" /> <b>Baidu</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="7" /> <b>Sogou</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="8" /> <b>Weibo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="9" /> <b>Bing</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="10" /> <b>其它</b>
+                                                <div class="hei5px"></div>
+                        <input type="submit" class="tp_btn" value="投票" /> <span class="v_anwers"> [ <a
+                                href="/poll?qid=239&op=result"><b>结果</b></a> | <a
+                                href="/polllist"><b>投票</b></a>]
+                        </span>
+                        <div class="hei5px"></div>
+                        评论:<b>6</b> | 得票数:<b>7328</b>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>热门文章</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="old_articles">
+                    <li class="old_blockli">
+                        <ul class="comment_on">
+                                                <li><a href="/story?sid=65313">Google 在漏洞披露 7 小时后修复了 Gmail Bug</a>
+                            <em>(1)</em></li>
+                                                <li><a href="/story?sid=65314">针对企业 VPN 的电话钓鱼攻击</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65315">Adobe 的 Lightroom App 更新清空了用户的照片和预设</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65316">美国警方通过面部识别匹配逮捕暴力抗议者</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65317">Chromium 对 root DNS 流量的影响</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65318">Unity 加入 Blender Development Fund </a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65319">在近距离空战模拟中 AI 大败人类顶尖飞行员</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65320">Telegram 如何在白俄革命中起着重要作用</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65321">TikTok 准备挑战美国禁止交易的行政令</a>
+                            <em>(0)</em></li>
+                                                <li><a href="/story?sid=65322">Mozilla 裁员如何影响 MDN Web Docs</a>
+                            <em>(0)</em></li>
+                                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>热门评论</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="comment_on">
+                                        <li><a
+                            href="/story?sid=65306#comment_293746"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月21日17时56分 星期五 
+                        评论到 <a href="/story?sid=65306">吴修铭认为 TikTok 禁令来得太迟了</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65283#comment_293741"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月20日21时10分 星期四 
+                        评论到 <a href="/story?sid=65283">美国扩大华为限制震动全球供应链</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65293#comment_293740"><b>勘误</b></a>
+                        (1 points, 一般)
+                        by cupen                        在 2020年08月20日13时02分 星期四 
+                        评论到 <a href="/story?sid=65293">科学家演示“维格纳的朋友”思想实验</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65243#comment_293735"><b>二月份中药细辛免疫抑制的假治愈？ 查病历吧。</b></a>
+                        (1 points, 一般)
+                        by solidot1528092189                        在 2020年08月15日09时46分 星期六 
+                        评论到 <a href="/story?sid=65243">两名新冠痊愈患者再次检测出阳性</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65234#comment_293734"><b>推进一点点共产主义</b></a>
+                        (1 points, 一般)
+                        by cutsolidot                        在 2020年08月13日19时42分 星期四 
+                        评论到 <a href="/story?sid=65234">中国视频直播平台表示将加强吃播审查</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65227#comment_293733"><b>BAD KEYBOARD: missing unit</b></a>
+                        (1 points, 一般)
+                        by lot                        在 2020年08月13日17时15分 星期四 
+                        评论到 <a href="/story?sid=65227">宇宙将会如何终结？</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65229#comment_293732"><b>另一种形式的用砖头储电，Energy Vault在2017年就做到了，只不过是用砖头的重力势能……</b></a>
+                        (1 points, 一般)
+                        by ___Mirro                        在 2020年08月13日16时47分 星期四 
+                        评论到 <a href="/story?sid=65229">科学家让砖头能储存电能</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65216#comment_293731"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月12日18时57分 星期三 
+                        评论到 <a href="/story?sid=65216">美国政府和军事网站被发现地理屏蔽来自中国和香港地区访问</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65194#comment_293730"><b>只要我们把人质杀了劫持者就不能威胁到人质的安全了</b></a>
+                        (1 points, 一般)
+                        by Craynic                        在 2020年08月11日22时48分 星期二 
+                        评论到 <a href="/story?sid=65194">白俄罗斯在选举日断网</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65204#comment_293729"><b>ox</b></a>
+                        (1 points, 一般)
+                        by solidot1551846701                        在 2020年08月11日08时33分 星期二 
+                        评论到 <a href="/story?sid=65204">为什么说美国难以屏蔽微信</a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+    
+    <div class="block_r">
+        <div class="rig_tittle">
+            <h2>快速链接</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="haveno_circle">
+                    <li><a target="_blank" href="//www.zhiding.cn">至顶网</a></li>
+                    <li><a target="_blank" href="//linux.cn">Linux中国</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+</div><div id="center">
+        <div class="notice">
+        <div class="arrow"></div>
+        <i class="b_circle"></i> <i class="bt_circle"></i>
+        <div class="notice_m">
+            solidot此次改版内容包括服务器更新、编程语言、网站后台管理的优化、页面和操作流程的优化等。        </div>
+    </div>
+                <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65322">Mozilla 裁员如何影响 MDN Web Docs</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=29" title="Mozilla"><img
+                        width="80" height="64"
+                        src="https://icon.solidot.org/images/topics/topicmozilla.gif" alt="Mozilla" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月22日 17时03分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Mozilla 最近宣布裁员大约 250 人，很多重要项目受到影响，其中之一是 MDN Web Docs 服务。官方博客<a href="https://hacks.mozilla.org/2020/08/an-update-on-mdn-web-docs/" target="_blank">详细解释了</a>这次裁员或重组对 MDN 的影响：暂停支持  DevRel、<a href="https://hacks.mozilla.org/">Hacks blog</a> 和 <a href="https://wiki.mozilla.org/TechSpeakers" target="_blank">Tech Speakers</a>，因为裁员部分项目缩小规模，包括 Mozilla 开发者程序、开发者活动和 MDN 技术写作。Mozilla 的  Contributor Experience 总监 Rina Jensen 强调，MDN 并不会消失，他们正在制定计划保持内容更新，继续改进平台，包括基于 GitHub 的递交系统。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65322">阅读更多...</a>
+                    | <a href="/comments?sid=65322&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65321">TikTok 准备挑战美国禁止交易的行政令</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月22日 15时24分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国总统特朗普本月先后针对字节跳动旗下的短视频应用 TikTok 发布了两个行政令，第一个命令 45 天后禁止美国公司与字节跳动有任何业务往来，第二个是要求字节跳动在 90 天内剥离 TikTok 美国业务。TikTok 准备就第一个行政令<a href="https://www.reuters.com/article/us-usa-tiktok-trump-exclusive/exclusive-tiktok-to-challenge-u-s-order-banning-transactions-with-the-video-app-idUSKBN25H2QG">提起法律诉讼</a>。TikTok 认为基于《国际紧急经济权力法案》的这一行政令剥夺了它的正当程序，它还计划反驳白宫所谓的国家安全威胁。法律诉讼无法让 TikTok 免于被剥离的命运，因为第二个行政令不需要接受司法审查。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65321">阅读更多...</a>
+                    | <a href="/comments?sid=65321&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65320">Telegram 如何在白俄革命中起着重要作用</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=58" title="通讯"><img
+                        width="96" height="62"
+                        src="https://icon.solidot.org/images/topics/topiccommunications.gif" alt="通讯" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月22日 14时08分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                就像发条一样，Telegram 上反对白俄专制领导人的抗议者每天会发布一个任务清单，列出目标和集会的时间和地点，像企业一样准确无误，还经常配上鼓励口号如“为了自由”。自 8 月 9 日当局宣布现任总统重新当选以来，Telegram 成为了协调大规模抗议的<a href="https://www.latimes.com/world-nation/story/2020-08-21/telegram-messaging-app-crucial-belarus-protests" target="_blank">不可或缺的工具</a>。通过 Telegram 频道，白俄用户分享着抗议的最新信息、视频和照片，了解存在大量警察的位置，联络人权活动人士和呼吁新的抗议。最受欢迎的频道包括 NEXTA、NEXTA Live 和 Belarus of the Brain。NEXTA Live 的用户数在短短几天内从数十万增长到了 200 多万，而白俄的居民总数是 950 万。上周，白俄当局对 NEXTA 及其 22 岁的创始人 Stepan Putilo 启动了犯罪调查，指控其煽动群众骚乱——这一罪名的惩罚是最高 15 年刑期。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65320">阅读更多...</a>
+                    | <a href="/comments?sid=65320&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//technology.solidot.org'>科技</a>: </span>
+                    
+                    <a href="/story?sid=65319">在近距离空战模拟中 AI 大败人类顶尖飞行员</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=151" title="人工智能"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicAI.png" alt="人工智能" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月22日 13时52分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                在 DARPA 的 <a href="https://breakingdefense.com/2020/08/darpas-alphadogfight-tests-ai-pilots-combat-chops/">AlphaDogfight</a> 近距离空战格斗模拟测试中，Heron Systems 公司开发的 AI 飞行员以 5 比 0 <a href="https://breakingdefense.com/2020/08/ai-slays-top-f-16-pilot-in-darpa-dogfight-simulation/" target="_blank">大败美国空军的顶尖飞行员</a>。不过 AI 真正取代人类飞行员还有很长的路要走。Heron Systems 的 AI 程序用了约一年时间开发，该公司的项目联合负责人 Ben Bell 说，在 Trial 1 前一周，他们的程序还不十分擅长飞行。人类飞行员称，AI 在战斗模拟中极具攻击性，能持续转弯展开打击，有着超人般的瞄准能力。该公司计划在年底公布 AI 强化学习过程的部分细节。DARPA 的 Air Combat Evolution (ACE）项目的测试设计降低空中作战任务的风险，探索人类和 AI 飞行员如何分享战斗机的飞行控制，最大化任务成功率。ACE 的总体概念是让人类飞行员从单一平台的操作人员转为任务指挥官，除了操作战斗机，还要指挥无人机编队协同作战。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65319">阅读更多...</a>
+                    | <a href="/comments?sid=65319&op=reply&type=story">发表评论</a>
+                                        | <a href="//technology.solidot.org" class="agrey">technology.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65318">Unity 加入 Blender Development Fund </a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=3" title="开源"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicopensource.png" alt="开源" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月22日 13时12分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                在微软和育碧等公司之后，游戏引擎开发商 Unity <a href="https://www.blender.org/press/unity-joins-the-blender-development-fund-as-a-patron-member/">加入了</a> Blender Development Fund，成为企业 Patron 会员。Blender Development Fund 企业会员有 4 个级别：铜、银、金和 Patron，其中 Patron 的年费在 12 万美元以上，是最高级别的赞助商，AMD、Nvidia 和 Epic Games 都是 Patron 会员。Blender Development Fund 旨在支持 Blender 开发者，目前每个月的捐款金额已经超过了 10 万欧元，能资助 20 名核心开发者全职开发 Blender。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65318">阅读更多...</a>
+                    | <a href="/comments?sid=65318&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65317">Chromium 对 root DNS 流量的影响</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=155" title="Chromium"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicChromium.png" alt="Chromium" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月22日 11时28分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                基于 Chromium 的浏览器如今占据了七成以上的浏览器市场份额，它的某些行为可能会产生意想不到的巨大影响，比如 DNS 域名查询。Chromium 有一项功能叫 <a rel="noreferrer noopener" aria-label="omnibox (opens in a new tab)" href="https://www.chromium.org/omnibox-history-provider" target="_blank">omnibox</a>，用户可以在里面输入网站名字、网址和搜索查询词。但如何区分用户输入的一个单词是域名（企业内联网域名可以是一个单词）还是查询词？Chromium 采取的方法是在后台进行域名 DNS 查询，检查是否会返回有效的 IP 地址。毫无疑问，这种关键字 DNS 查询在很多情况下是返回域名不存在的错误消息。这种域名错误信息叫 NXDOMAIN，有些 ISP 会在这上面打主意，对于无效域名它们会进行拦截重定向到广告页挣些广告费。Chromium 在 DNS 查询的的时候需要识别某个网络是否存在 NXDOMAIN 拦截。根据 Chromium 的源代码（intranet_redirect_detector.c），它使用的方法是在每次启动、每次 IP 地址变化、每次设备 DNS 配置变更时对 3 个随机的  7-15 字符长（现在固定为 10 个字符长）的字符串进行 DNS 查询，如果至少 2 个随机域名查询到的 IP 地址是相同的（即被重定向了），那么 Chromium 会认为存在 NXDOMAIN 拦截，如果用户输入的词查询结果匹配了被重定向的 IP，那么  Chromium 将不会有任何操作，否则会提示是否是本地域名。Chromium 的这种行为会在 root DNS 服务器留下记录。根据亚太互联网络信息中心的<a href="https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/" target="_blank">统计</a>，root 服务器一半的查询流量来自于 Chromium 的检查。这相当于每天在 root 服务器系统查询 600 亿次。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65317">阅读更多...</a>
+                    | <a href="/comments?sid=65317&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65316">美国警方通过面部识别匹配逮捕暴力抗议者</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 22时25分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国纽约和迈阿密等城市的执法部门使用面部识别软件<a href="https://arstechnica.com/tech-policy/2020/08/cops-in-miami-nyc-arrest-protesters-from-facial-recognition-matches/#p3" target="_blank">逮捕了</a>多名过去几个月在 Black Lives Matter 抗议中参与犯罪活动的抗议者。迈阿密警方使用 Clearview AI 识别和逮捕了一名被控在抗议中向一名警官扔石头的女子。副警察局长 Armando Aguilar 称，如果是和平抗议，没有犯罪，警方不会对他们使用面部识别软件，“我们使用这项技术识别攻击警官，破坏警方财产和放火的暴力抗议者，我们已经逮捕了一些人，未来还会有更多人被捕。”纽约警方据报道利用 AI 软件识别了一名曾在抗议中用扩音器对着一名警官耳朵大喊的活动人士，数十名警察在警犬、无人机和直升飞机的配合下突袭了其公寓。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65316">阅读更多...</a>
+                    | <a href="/comments?sid=65316&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//software.solidot.org'>软件</a>: </span>
+                    
+                    <a href="/story?sid=65315">Adobe 的 Lightroom App 更新清空了用户的照片和预设</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=15" title="软件"><img
+                        width="65" height="65"
+                        src="https://icon.solidot.org/images/topics/topicsoftware.gif" alt="软件" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 22时04分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Adobe 的 iPhone 和 iPad  Lightroom App 在最新更新之后<a href="https://petapixel.com/2020/08/20/lightroom-app-update-wipes-users-photos-and-presets-adobe-says-they-are-not-recoverable/" target="_blank">抹掉了</a>尚未同步到云端的用户照片和预设。Adobe 证实它没有办法恢复。用户在论坛上报告，在更新了  Lightroom v5.4 之后，照片、预设和水印数据都丢失了。有用户称丢失了 2 年的照片编辑数据，表示与 Adobe 的客服打了 4 个小时电话，客服表达了歉意称数据无法恢复。Adobe 已经公开证实了该问题，它对受到影响的用户“<a href="https://feedback.photoshop.com/photoshop_family/topics/lost-my-pictures-and-presets-after-update-today-18th-august-2020">深表歉意</a>”。它已经释出了 v5.4.1，修复了问题，但丢失的数据无法恢复了。Adobe 称，Android 和桌面版本，以及 Lightroom Classic 没有受到影响，它建议用户使用 iPhone 或 iPad 备份恢复数据。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65315">阅读更多...</a>
+                    | <a href="/comments?sid=65315&op=reply&type=story">发表评论</a>
+                                        | <a href="//software.solidot.org" class="agrey">software.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//security.solidot.org'>安全</a>: </span>
+                    
+                    <a href="/story?sid=65314">针对企业 VPN 的电话钓鱼攻击</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=100" title="安全"><img
+                        width="59" height="78"
+                        src="https://icon.solidot.org/images/topics/topicsecurity.gif" alt="安全" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 16时50分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                上个月黑客对 Twitter 的攻击首先是利用电话对公司员工发动社交工程攻击窃取到登陆凭证，而类似的攻击方法正越来越常见。因新冠疫情，科技公司推广了远程在家办公政策，而为了安全访问公司内网，企业通常会向员工提供 VPN。有攻击者组合了电话社交工程和钓鱼网站试图窃取企业的 VPN 登陆凭证。<a href="https://krebsonsecurity.com/2020/08/voice-phishers-targeting-corporate-vpns/">这种方法的成功率相当高</a>。类似 Twitter 攻击，钓鱼者首先打电话给目标机构的远程办公员工，自称来自 IT 部门，试图帮助解决 VPN 问题。钓鱼者会诱骗受害者访问冒充企业 VPN 登陆入口的钓鱼网站，输入登陆凭证。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65314">阅读更多...</a>
+                    | <a href="/comments?sid=65314&op=reply&type=story">发表评论</a>
+                                        | <a href="//security.solidot.org" class="agrey">security.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//security.solidot.org'>安全</a>: </span>
+                    
+                    <a href="/story?sid=65313">Google 在漏洞披露 7 小时后修复了 Gmail Bug</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=100" title="安全"><img
+                        width="59" height="78"
+                        src="https://icon.solidot.org/images/topics/topicsecurity.gif" alt="安全" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 15时58分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Google 曾制定了一条著名的规定：修一个漏洞给 90 天时间足够了，超过这个时间期限可以公开漏洞。现在我们知道，这个规定只适用于其他公司，不适用于 Google。安全研究员 Allison Husain 在 4 月份向 Google 报告了一个漏洞，该漏洞允许攻击者模仿任何 Gmail 或 G Suite 客户发送欺骗性邮件。但 Goolge 没有在 90 天时间内修复漏洞，它计划的修复时间是在 9 月份，也就是在漏洞报告 5 个月之后。8 月 19 日，Husain 在其个人博客上<a href="https://ezh.es/blog/2020/08/the-confused-mailman-sending-spf-and-dmarc-passing-mail-as-any-gmail-or-g-suite-customer/">披露了</a>漏洞细节，包括 POC 漏洞利用代码。Google 开发者在漏洞公开 7 个小时后给 Gmail&nbsp; 打了补丁<a href="https://www.zdnet.com/article/google-fixes-major-gmail-bug-seven-hours-after-exploit-details-go-public/" target="_blank">阻止漏洞被利用</a>，但完整补丁将在 9 月份部署。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65313">阅读更多...</a>
+                    | <a href="/comments?sid=65313&op=reply&type=story">发表评论</a>
+                                        | <a href="//security.solidot.org" class="agrey">security.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65313"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65312">特朗普请求最高法院允许他在 Twitter 上拉黑批评者</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=158" title="Twitter"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicTwitter.png" alt="Twitter" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 15时04分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                特朗普政府请求最高法院<a href="https://thehill.com/homenews/administration/512938-trump-asks-supreme-court-to-let-him-block-critics-on-twitter" target="_blank">推翻</a>下级法院的一项裁决，<a href="https://www.solidot.org/story?sid=61295" target="_blank">该裁决</a>称美国总统在 Twitter 上拉黑批评者违反了第一修正案。此案始于 2017 年，特朗普的 Twitter账号 @realDonaldTrump 拉黑 了 7 个留言批评他的人。联邦上诉法庭法官认为，特朗普使用他的个人账户从事政府公务，因此他不能因为不喜欢对方的观点而禁止美国人阅读他的推文和通过回复的方式进行对话。特朗普通过个人账户发表了大量推文，其中有很多与政府事务相关，而白宫的官方 Twitter 账户 @WhiteHouse 也有很大一部分内容是转推特朗普的推文。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65312">阅读更多...</a>
+                    | <a href="/comments?sid=65312&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65312"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65311">加州法官裁决 Uber 和 Lyft 暂缓执行将司机归为雇员的命令</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=54" title="商业"><img
+                        width="64" height="54"
+                        src="https://icon.solidot.org/images/topics/topicbusiness.gif" alt="商业" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 14时50分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                8 月 10 日，加州法官<a href="https://www.solidot.org/story?sid=65214">发出临时禁令</a>，命令打车软件公司 Uber 和 Lyft 必须将司机视为雇员。禁令将在 10 天后也就是本周四生效。Uber 和 Lyft 已经表示将在周四午夜暂时关闭其加州业务。两家公司都表示他们不可能在短时间内将司机变为全职雇员。Uber CEO Dara Khosrowsha 说他的公司不可能一夜之间雇 5 万人。现在一位加州法官允许 Uber 和 Lyft <a href="https://arstechnica.com/cars/2020/08/last-minute-california-ruling-means-uber-and-lyft-wont-shut-down-today/" target="_blank">暂缓执行这项命令</a>。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65311">阅读更多...</a>
+                    | <a href="/comments?sid=65311&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//mobile.solidot.org'>移动</a>: </span>
+                    
+                    <a href="/story?sid=65310">黑莓手机还活着</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=166" title="黑莓"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicblackberry.png" alt="黑莓" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 13时55分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                获得黑莓品牌使用权的 TCL 公司今年初<a href="https://www.solidot.org/story?sid=63412">宣布</a>它将在今年晚些时候停止销售黑莓手机，因为双方的合作即将结束。这是否意味着曾经风靡世界的黑莓手机将会销声匿迹？本周一家美国得州公司 OnwardMobility <a href="https://www.businesswire.com/news/home/20200819005202/en/4809361/OnwardMobility-Announces-Agreements-BlackBerry-Foxconn-Subsidiary-FIH">宣布</a>与黑莓公司以及富士康子公司 FIH Mobile Limited 达成协议，将发布一款带物理键盘的 5G 黑莓 Android 手机，预计 2021 年上半年在欧洲和北美市场发售。这款手机将主要面向企业及专业人士，他们想要触感输入体验，也关注隐私和安全。OnwardMobility CEO Peter Franklin 称，企业专业人士想要安全的 5G 设备，在不牺牲用户体验的情况下提高生产力。黑莓智能手机以保护通信、隐私和数据著称。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65310">阅读更多...</a>
+                    | <a href="/comments?sid=65310&op=reply&type=story">发表评论</a>
+                                        | <a href="//mobile.solidot.org" class="agrey">mobile.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//apple.solidot.org'>苹果</a>: </span>
+                    
+                    <a href="/story?sid=65309">美国政府秘密改造 iPod 添加盖革计数器功能 </a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月21日 13时51分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                前苹果软件工程师 David Shayer <a href="https://tidbits.com/2020/08/17/the-case-of-the-top-secret-ipod/">披露</a>，美国政府曾秘密改造 iPod 为其加入了盖革计数器功能。盖革计数器是用于监测核辐射的，这意味着改造后的产品是用在核相关任务中的，而过去十年最著名的核设施攻击是美国和以色列对伊朗 Natanz 核工厂铀浓缩设施的 Stuxnet 蠕虫攻击。Shayer 披露的时间点与这起攻击非常吻合。Shayer 在苹果工作了 18 年，从事与 iPod 和 Apple Watch 相关的工作。他说 2005 年的某天，他上司的上司、iPod 软件总监，指派他去参与了美国国防部的一个机密项目，该项目的其他两位工程师来自于美国国防部的承包商贝克特尔，他们的任务是改造 iPod 秘密将数据记录到一个定制硬件上。当时的 iPod 并不容易修改，它的操作系统不是基于任何苹果操作系统，而是来自于苹果收购的公司 Portal Player，加入了另一家公司 Pixo 的代码。换句话说，iPod OS 相当复杂，如果没有苹果的帮忙要改造它是相当难的。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65309">阅读更多...</a>
+                    | <a href="/comments?sid=65309&op=reply&type=story">发表评论</a>
+                                        | <a href="//apple.solidot.org" class="agrey">apple.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65308">超算模拟揭示水熊虫的秘密</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="3896">
+                <a href="/~ai">ai</a>(3896)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月20日 23时39分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                微生物水熊虫以在极端环境下生存的能力著称，它是已知唯一一种能在太空真空环境生存下来的动物。在缺水或极端温度下，水熊虫能进入被称为 tun 的状态——这是一种假死状态，新陈代谢停滞。在这种状态下，水熊虫能没有水生存数十年，能忍受高剂量的伽马射线和 X 射线， -272 ℃ 到 150℃ 的温度，甚至还能在真空中度过 10 天。对绝大多数生物来说，极端环境的压力会损坏 DNA。但水熊虫有损坏抑制蛋白（Dsup）保护 DNA。西班牙研究人员利用超算<a href="https://www.newscientist.com/article/2252583-secret-to-tardigrades-toughness-revealed-by-supercomputer-simulation/" target="_blank">模拟了</a> Dsup 和 DNA 之间的相互作用。<a href="https://www.nature.com/articles/s41598-020-70431-1">研究报告</a>发表在《Scientific Reports》 期刊上。研究人员发现，Dsup 蛋白是固有无序的，具有高度灵活性，能调整其结构以精确适应 DNA 形状。这项研究或有助于癌症治疗和人类冬眠等。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65308">阅读更多...</a>
+                    | <a href="/comments?sid=65308&op=reply&type=story">发表评论</a>
+                                        | <a href="//science.solidot.org" class="agrey">science.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//security.solidot.org'>安全</a>: </span>
+                    
+                    <a href="/story?sid=65307">新 P2P 僵尸网络感染世界各地的 SSH 服务器</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=100" title="安全"><img
+                        width="59" height="78"
+                        src="https://icon.solidot.org/images/topics/topicsecurity.gif" alt="安全" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月20日 23时26分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                安全公司 Guardicore Labs 的研究人员<a href="https://www.guardicore.com/2020/08/fritzfrog-p2p-botnet-infects-ssh-servers/">披露了</a>一个没有中心服务器利用 P2P 机制进行控制的僵尸网络。这种控制机制意味着僵尸网络更难被关闭，传统的打击僵尸网络的方法是接管指令控制服务器，但这种传统方法对 P2P 控制的僵尸网络没有效果。被称为 FritzFrog 的僵尸网络具有很多先进功能，包括：只在内存中运行不留下硬盘文件的恶意负荷；自 1 月以来发布了 20 多个版本；只感染 SSH 服务器。研究人员称，僵尸网络至今成功感染了 500 台属于知名美国和欧洲大学的服务器。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65307">阅读更多...</a>
+                    | <a href="/comments?sid=65307&op=reply&type=story">发表评论</a>
+                                        | <a href="//security.solidot.org" class="agrey">security.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65306">吴修铭认为 TikTok 禁令来得太迟了</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月20日 22时33分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                哥伦比亚大学法学院教授、网络中立一词的提出者吴修铭(Tim Wu)在纽约时报<a href="https://cn.nytimes.com/opinion/20200819/tiktok-wechat-ban-trump/">发表专栏文章</a>，认为 TikTok 禁令威胁是一种迟来的回应，在一场关于互联网灵魂之争的持久战中，这只是在以牙还牙。吴修铭称：
+<i>在中国类似 TikTok 和微信的外国视频和通讯应用——比如 YouTube 和 WhatsApp——多年来一直被禁止使用。该国广泛的封锁、审查和监视违反了互联网中关于开放和正当的几乎所有原则。中国在国内保持封闭和审查的互联网经济，而它的产品却能充分进入国外的开放市场。这种不对等是不公平的，不应该再被容忍。充分接入互联网——开放的互联网——这样的特权，应该只给予尊重这种开放性的国家的公司...多年来，西方民主国家一直在徒劳地期望中国屈服于不可阻挡的世界历史力量，会变得更像我们，因此允许中国利用这种局面...从中国的角度来看，这样的不对等令它获得了丰厚的利益，对其经济和政治目标都有好处。</i>            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65306">阅读更多...</a>
+                    | <a href="/comments?sid=65306&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65306"><b>4</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65305">中国推动芯片的国产化</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=54" title="商业"><img
+                        width="64" height="54"
+                        src="https://icon.solidot.org/images/topics/topicbusiness.gif" alt="商业" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月20日 21时25分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                最近几个月，中国一些地方政府及中国电信等国营企业纷纷宣布相关计划及采购安排，目的是扶持中国国产的科技生态系取代英特尔、微软、甲骨文及 IBM 等美系设备。地方政府在推动组成工业联盟，以倡导使用华为的鲲鹏处理技术。5 月中国电信宣布，2020 年将采购 56,314 个服务器，其中的五分之一采用鲲鹏以及海光公司制造的禅定(Dhyana)处理器，这被视为是<a href="https://cn.reuters.com/article/china-us-tech-war-localisation-push-0820-idCNKBS25G11I" target="_blank">中国推动国产化</a>的一个姿态。中国服务器 95% 使用英特尔的 CPU，如果特朗普禁止美国公司向中国出口服务器芯片，这无疑是一场大灾难。分析师估计中国政府机构的计算机会在未来五年替代掉美国的芯片。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65305">阅读更多...</a>
+                    | <a href="/comments?sid=65305&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//games.solidot.org'>游戏</a>: </span>
+                    
+                    <a href="/story?sid=65304">中国独立游戏工作室演示新作《黑神话: 悟空》</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=13" title="游戏"><img
+                        width="68" height="77"
+                        src="https://icon.solidot.org/images/topics/topicgames.gif" alt="游戏" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月20日 20时41分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                中国独立游戏工作室“<a href="http://www.gamesci.com.cn/">游戏科学</a>”演示了其作品《<a href="http://www.gamesci.com.cn/" target="_blank">黑神话: 悟空</a>》，在社交媒体上引发了热议。但这款游戏距离发布还很遥远，开发商公布视频的一个目的是进行<a href="https://www.zhipin.com/gongsi/a1ed8da22bfd2e1b1nJ93ti0GQ~~.html?ka=company-intro">招聘</a>，希望能招聘到更多游戏人才去帮助他们完成这款引发轰动的作品。《黑神话: 悟空》采用虚幻引擎 4 打造，支持 PC 等平台，发布日期未知。游戏科学放出了 13 分钟的早期游戏演示，展现了基于西游记神话故事的世界观，游戏表现方式则类似动作游戏《仁王》和《只狼》，甚至还有类似《真三国无双》的无双乱斗，融合的相当独特。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65304">阅读更多...</a>
+                    | <a href="/comments?sid=65304&op=reply&type=story">发表评论</a>
+                                        | <a href="//games.solidot.org" class="agrey">games.solidot.org</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65303">德国启动为期三年的基本收入实验</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=129" title="金钱"><img
+                        width="84" height="74"
+                        src="https://icon.solidot.org/images/topics/topicmoney.gif" alt="金钱" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月20日 20时32分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                从本周开始，德国<a href="https://www.businessinsider.com/germany-begins-universal-basic-income-trial-three-years-2020-8" target="_blank">启动了</a>为期三年的基本收入实验，调查基本收入如何影响经济和受助人的福祉。德国成为最新一个测试全民基本收入的国家。研究包括实验组和对照组，实验组 120 个人将在未来三年内每个月领到 1200 欧元，这一金额略高于德国的贫困线。对照组有 1380 人，他们不会领取到钱。这项研究由德国经济研究负责，资金来源于 14 万笔私人捐赠。所有的参与者将需要填写与生活、工作和情绪相关的调查问卷，以了解基本收入是否产生足够大的影响。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65303">阅读更多...</a>
+                    | <a href="/comments?sid=65303&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+        <div class="page">
+	<a href='//www.solidot.org/?issue=20200822'>昨天的文章</a></div>
+</div>
+<script type="text/javascript" language="javascript">
+                $('div.block_m span.user').mouseover(function () {
+        var _this = $(this).children('.user_box');
+        if (_this.html() == "") {
+            var start = '<div class="user_on"></div><div class="user_midd">';
+            var end = '</div><div class="user_down"></div>';
+            _this.html(start + '<div class="us_box cenTer"><div class="tloading"></div></div>' + end);
+            $.ajax({
+                type: "POST",
+                url: "/user/userinfo",
+                data: "user=" + $(this).attr('id'),
+                success: function (data) {
+                    var data = eval("(" + data + ")");
+                    var content = '';
+                    if (data[0] == -2) {
+                        content += '<div class="us_box cenTer">暂无个人简介</div>';
+                    } else {
+                        content += '<div class="us_box">' + data[0][0] + data[0][1] + '</div>';
+                        content += '<div class="us_box"><b class="l">关系：</b>';
+                        if (data[1] == -1) {
+                            content += '自己';
+                        } else if (data[1][0] == 0) {
+                            content += '<img src="https://icon.solidot.org/images/default/neutral.gif" class="my_rship"/>普通&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        } else if (data[1][0] == 1) {
+                            content += '<img src="https://icon.solidot.org/images/default/friend.gif" class="my_rship"/>朋友&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        } else if (data[1][0] == 2) {
+                            content += '<img src="https://icon.solidot.org/images/default/foe.gif" class="my_rship"/>敌人&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        }
+                        content += "</div>";
+                        if (data[2] != undefined) {
+                            content += '<div class="us_box"><b>签名：</b>' + data[2] + '</div>';
+                        }
+                    }
+                    _this.html(start + content + end);
+                }
+            })
+        }
+        else
+            _this.removeClass('hiden')
+    }).mouseout(function () {
+        $(this).children('div.user_box').addClass('hiden')
+    })
+</script>
+
+﻿	<div class="clear"></div>
+	<div id="footer">
+	  <p class="famous">就算它工作不正常也别担心。如果一切正常，你早该失业了--Mosher的软件工程定律</p>
+	  <div class="btmnav">
+	    <ul>
+	      <li class="begin"> <a href="/">首页</a> </li>
+	      <li> <a href="http://www.zhiding.cn">至顶网</a> </li>
+	      <li> <a href="/submit">提交文章</a> </li>
+	      <li> <a href="/?issume=20200822">往日文章</a> </li>
+	      <li> <a href="/polllist">过去的投票</a> </li>
+	      <li> <a href="/authors">编辑介绍</a> </li>
+	      <li> <a href="/privacy">隐私政策</a> </li>
+	      <li> <a href="/terms">使用条款</a> </li>
+	      <li> <a href="/introd">网站介绍</a> </li>
+	      <li> <a href="/index.rss">RSS</a> </li>
+	    </ul>
+	  </div>
+	  <div id="copyinfo">
+	    <p>本站提到的所有注册商标属于他们各自的所有人所有，评论属于其发表者所有，其余内容版权属于 solidot.org(2009-<script>document.write(new Date().getFullYear());</script>) 所有 。</p>
+	    <p>
+	    	<a href="//php.net/" title="PHP 服务器" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/php.gif" alt="php"></a>
+	    	<a href="//apache.org/" title="Apache 服务器" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/apache.gif" alt="apache"></a>
+	    	<a href="//www.mysql.com/" title="MySQL" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/mysql.gif" alt="mysql"></a>
+	    </p>
+	    <p><a href="//www.solidot.org" title="solidot.org"><img border="0" src="https://icon.solidot.org/images/btn/solidot-s.gif"></a></p>
+	    <p>京ICP证161336号&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.beian.miit.gov.cn">京ICP备15039648号-15</a> 北京市公安局海淀分局备案号：11010802021500 <a href="//icp.valu.cn/search/domain/solidot.org?verifyCode=pu7c4"><img src="//icon.zhiding.cn/beian/icon.png" style="margin-right:8px;"></a> </p>
+	    <p>违法和不良信息举报电话：13070156560　举报邮箱：jubao@zhiding.cn　网上有害信息举报专区：<a href="https://www.12377.cn" target="_blank">https://www.12377.cn</a></p>
+	  </div>
+	  <div class="clear"></div>
+	</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d11396a350156e4682e4156a671bdaf1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type='text/javascript' language='javascript' src='https://icon.solidot.org/js/base.js'></script><script type="text/javascript">
+$('#ul_nav li.s_icon').mouseover(function(){
+	var d = $(this).children('div');
+	d.toggleClass('hiden');
+}).mouseout(function(){
+	var d = $(this).children('div');
+	d.toggleClass('hiden');
+});
+$('.wechat').mouseover(function(){
+	$('.wechat_code').toggleClass('hiden');
+}).mouseout(function(){
+	$('.wechat_code').toggleClass('hiden');
+});
+</script>
+<!--
+<script src="https://togetherjs.com/togetherjs-min.js"></script>
+<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    var pv = "http://pv.zhiding.cn/js/pv.js";
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    if (curProtocol ==='https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        pv = "https://pv.zhiding.cn/js/pv.js";
+    }
+    //document.getElementById('pv').src=pv;
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</body>
+</html>
